@@ -7,7 +7,7 @@ Este README contém todas as instruções necessárias para vocês testarem a ap
 ## ✨ Funcionalidades
 
 - **Frontend ReactJS**: Ao acessar a aplicação, você será calorosamente recebido pela tela "Hello Kanastra".
-- **Backend Python com FAST API**: Contamos com um endpoint `/charges` robusto que aceita requisições POST para processar e armazenar informações de cobranças.
+- **Backend Python com FAST API**: Conta com um endpoint `/charges` que aceita requisições POST para processar cobranças.
 
 ## 🐳 Ambiente Docker
 
@@ -21,13 +21,13 @@ Todos os serviços (backend, frontend e banco de dados) são orquestrados via `d
 
 ### 🚀 Instruções de Execução
 
-1. **Limpeza do Docker**: Antes de tudo, vamos garantir que seu Docker esteja limpo de imagens anteriores para evitar qualquer conflito.
+1. **Limpeza do Docker**: Vamos garantir que seu Docker esteja limpo de imagens para evitar qualquer conflito.
 Execute o comando:
    ```sh
       docker system prune -a
    ```
-   **Atenção**: Este comando removerá todas as imagens não utilizadas. 
-   Certifique-se de que está tudo certo antes de prosseguir.
+
+- **Atenção**: Este comando removerá todas as imagens não utilizadas.
 
 2. **Construção e Execução**: Com o Docker pronto, é hora de construir e executar nossa aplicação:
    ```sh
