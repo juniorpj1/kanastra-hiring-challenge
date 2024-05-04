@@ -3,7 +3,7 @@ FROM python:latest
 # Definindo variáveis de ambiente
 ENV DB_USER=root
 ENV DB_PASSWORD=RootPassword
-ENV DB_HOST=kanastra-database
+ENV DB_HOST=172.17.0.2
 ENV DB_NAME=Kanastra
 
 # Definir o workdir

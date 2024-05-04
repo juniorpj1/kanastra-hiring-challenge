@@ -14,4 +14,6 @@ class ChargeService:
         except Exception as e:
             db.rollback()
             raise HTTPException(status_code=400, detail=str(e))
-        return db_charge
+        
+        # Convert the SQLAlchemy model instance to a Pydantic model
+        return Charges.from_orm(db_charge)

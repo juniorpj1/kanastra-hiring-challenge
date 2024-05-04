@@ -6,4 +6,6 @@ class Charges(BaseModel):
     email: str
     debtAmount: float
     debtDueDate: str
-    
+
+    class Config:
+        orm_mode = True
