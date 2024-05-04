@@ -10,7 +10,7 @@ charge = APIRouter()
 
 @charge.get("/")
 def read_root():
-    response = RedirectResponse(url='http://localhost:8080')  # frontend docker compose
+    response = RedirectResponse(url='http://localhost:8080')
     return response
 
 @charge.post("/charges", status_code=status.HTTP_201_CREATED)
