@@ -16,4 +16,7 @@ class ChargeService:
             raise HTTPException(status_code=400, detail=str(e))
         
         # Convert the SQLAlchemy model instance to a Pydantic model
-        return Charges.from_orm(db_charge)
+        pydantic_charge = Charges.from_orm(db_charge)
+        
+        # Return a dictionary
+        return pydantic_charge.dict()

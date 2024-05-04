@@ -2,7 +2,7 @@ version: '3.5'
 services:
     mysql:
         image: kanastra-database
-        container-name: mysql
+        container-name: kanatra-database
         ports:
             - "3306:3306"
         environment:
@@ -11,13 +11,13 @@ services:
 
     frontend:
         image: kanastra-frontend
-        container_name: frontend
+        container_name: kanastra-frontend
         ports:
             - "8080:8080"
 
     backend2:
         image: kanastra-backend
-        container-name: backend
+        container-name: kanastra-backend
         ports:
             - "80:80"
         environment:
