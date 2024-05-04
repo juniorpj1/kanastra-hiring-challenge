@@ -1,9 +1,9 @@
 FROM python:latest
 
-# Definindo variáveis de ambiente
+# Definindo variáveis de ambiente ip bd 172.17.0.2
 ENV DB_USER=root
 ENV DB_PASSWORD=RootPassword
-ENV DB_HOST=172.17.0.2
+ENV DB_HOST=mysql 
 ENV DB_NAME=Kanastra
 
 # Definir o workdir
