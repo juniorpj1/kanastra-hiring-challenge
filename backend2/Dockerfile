@@ -19,4 +19,4 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 COPY ./app /code/app
 
 # Comando para subir o app
-CMD ["uvicorn", "app.index:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "app.index:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
