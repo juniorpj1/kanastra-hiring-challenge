@@ -1,0 +1,27 @@
+version: '3.5'
+services:
+    mysql:
+        image: kanastra-database
+        container-name: mysql
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: RootPassword
+            MYSQL_DATABASE: Kanastra
+
+    frontend:
+        image: kanastra-frontend
+        container_name: frontend
+        ports:
+            - "8080:8080"
+
+    backend2:
+        image: kanastra-backend
+        container-name: backend
+        ports:
+            - "80:80"
+        environment:
+            DB_USER: root
+            DB_PASSWORD: RootPassword
+            DB_HOST: mysql
+            DB_NAME: Kanastra
