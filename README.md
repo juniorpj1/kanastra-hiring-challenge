@@ -20,9 +20,9 @@ Para garantir que a aplicação funcione perfeitamente no seu ambiente, utilizam
 ### 🚀 Instruções de Execução
 
 1. **Limpeza do Docker**: Antes de tudo, vamos garantir que seu Docker esteja limpo de imagens anteriores para evitar qualquer conflito. Execute o comando:
-
-docker system prune -a
-   
+   ```sh
+   docker system prune -a
+   ```
    **Atenção**: Este comando removerá todas as imagens não utilizadas. Certifique-se de que está tudo certo antes de prosseguir.
 
 2. **Construção e Execução**: Com o Docker pronto, é hora de construir e executar nossa aplicação:
