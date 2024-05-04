@@ -1,5 +1,7 @@
 FROM node:22-alpine
 
+RUN npm install -g vite
+
 WORKDIR /app
 
 COPY package.json .
