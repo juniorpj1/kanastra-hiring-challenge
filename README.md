@@ -1,7 +1,8 @@
 ```markdown
 # Sistema de Cobranças Kanastra 💼💻
 
-Olá, desenvolvedores! Bem-vindos ao repositório do desafio de contratação da **Kanastra** para a posição de Software Engineer. Este README contém todas as instruções necessárias para vocês testarem a aplicação de cobranças que construímos com muito ❤️.
+Olá, desenvolvedores! Bem-vindos ao repositório do desafio de contratação da **Kanastra** para a posição de Software Engineer.
+Este README contém todas as instruções necessárias para vocês testarem a aplicação de cobranças que construímos com muito ❤️.
 
 ## ✨ Funcionalidades
 
@@ -10,7 +11,8 @@ Olá, desenvolvedores! Bem-vindos ao repositório do desafio de contratação da
 
 ## 🐳 Ambiente Docker
 
-Para garantir que a aplicação funcione perfeitamente no seu ambiente, utilizamos o Docker. Todos os serviços (backend, frontend e banco de dados) são orquestrados via `docker-compose`.
+Para garantir que a aplicação funcione perfeitamente no seu ambiente, utilizamos o Docker.
+Todos os serviços (backend, frontend e banco de dados) são orquestrados via `docker-compose`.
 
 ### Pré-requisitos
 
@@ -19,16 +21,18 @@ Para garantir que a aplicação funcione perfeitamente no seu ambiente, utilizam
 
 ### 🚀 Instruções de Execução
 
-1. **Limpeza do Docker**: Antes de tudo, vamos garantir que seu Docker esteja limpo de imagens anteriores para evitar qualquer conflito. Execute o comando:
+1. **Limpeza do Docker**: Antes de tudo, vamos garantir que seu Docker esteja limpo de imagens anteriores para evitar qualquer conflito.
+Execute o comando:
    ```sh
-   docker system prune -a
+      docker system prune -a
    ```
-   **Atenção**: Este comando removerá todas as imagens não utilizadas. Certifique-se de que está tudo certo antes de prosseguir.
+   **Atenção**: Este comando removerá todas as imagens não utilizadas. 
+   Certifique-se de que está tudo certo antes de prosseguir.
 
 2. **Construção e Execução**: Com o Docker pronto, é hora de construir e executar nossa aplicação:
    ```sh
-   docker-compose build
-   docker-compose up
+      docker-compose build
+      docker-compose up
    ```
 
 ## 🌐 Acessando a Aplicação
