@@ -1,8 +1,8 @@
-```markdown
-# Sistema de Cobranças Kanastra 💼💻
+# Sistema de Cobranças Kanastra 💼💻 - Hiring Challenge
 
-Olá, desenvolvedores! Bem-vindos ao repositório do desafio de contratação da **Kanastra** para a posição de Software Engineer.
-Este README contém todas as instruções necessárias para vocês testarem a aplicação de cobranças que construímos com muito ❤️.
+Olá, desenvolvedores! Me chamo Aparício Junior e estou participando do processo seletivo "Programa de aceleração Tech".
+Bem-vindos ao repositório do desafio de contratação da **Kanastra** para a posição de Software Engineer.
+Este README contém todas as informações e instruções necessárias.
 
 ## ✨ Funcionalidades
 
