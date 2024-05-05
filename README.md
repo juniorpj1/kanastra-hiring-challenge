@@ -68,8 +68,7 @@ Para verificar os dados inclusos no banco de dados MySQL, que está rodando em u
 2. **Verificação dos Dados**: Uma vez dentro do MySQL, você pode verificar os dados com os seguintes comandos SQL:
    ```sql
    USE Kanastra;
-   SELECT * FROM sua_tabela_de_cobrancas;
+   SELECT * FROM charges;
    ```
-   Substitua `sua_tabela_de_cobrancas` pelo nome da tabela onde as cobranças estão sendo armazenadas.
-
-Agora é com vocês! Esperamos que tenham uma ótima experiência testando minha aplicação. Qualquer feedback é bem-vindo! 👍
+   
+Agora é com vocês! Espero que tenham uma ótima experiência testando minha aplicação. Qualquer feedback é bem-vindo! 👍
