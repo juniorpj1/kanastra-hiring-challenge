@@ -1,3 +1,4 @@
+from typing import Any, Dict
 from fastapi import HTTPException
 from sqlalchemy.orm import Session
 from app.schemas.schemas import Charges
@@ -5,7 +6,7 @@ from app.models.models import ChargesModel
 
 class ChargeService:
     @staticmethod
-    def create(db: Session, charge: Charges):
+    def create(db: Session, charge: Charges) -> Dict[str, Any]:
         db_charge = ChargesModel(**charge.dict())
         try:
             db.add(db_charge)
