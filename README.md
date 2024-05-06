@@ -22,7 +22,7 @@ Todos os serviços (backend, frontend e banco de dados) são orquestrados via `d
 
 ### 🚀 Instruções de Execução
 
-1. **Limpeza do Docker**: Vamos garantir que seu Docker esteja limpo de imagens para evitar qualquer conflito.
+1. **Limpeza do Docker**: Vamos garantir que seu Docker esteja limpo de imagens para evitar qualquer conflito. Exclua e pare todos os containeres conflitantes.
 Execute o comando:
    ```sh
       docker system prune -a
@@ -76,7 +76,7 @@ Para verificar os dados inclusos no banco de dados MySQL, que está rodando em u
    SELECT * FROM charges;
    ```
 
-   ## 🧪 Testes Unitários com Pytest, UnitTest e Coverage
+## 🧪 Testes Unitários com Pytest, UnitTest e Coverage
 
 Para assegurar a qualidade e o correto funcionamento das funcionalidades do sistema, é essencial realizar testes unitários. Siga os comandos abaixo para executar os testes no ambiente Docker:
 
