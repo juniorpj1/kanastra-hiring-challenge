@@ -9,6 +9,7 @@ Este README contém todas as informações e instruções necessárias.
 - **Frontend ReactJS**: Ao acessar a aplicação, você será calorosamente recebido pela tela "Hello Kanastra".
 - **Backend Python com FAST API**: Conta com um endpoint `/charges` que aceita requisições POST para processar cobranças.
 - **Modelagem de Banco de Dados MySQL**: Conta com scripts feitos com MySQL para modelar e salvar as requisições provindas da API.
+- **Testes Unitários:** Implementei testes unitários utilizando pytest, unittest e coverage para garantir a qualidade e a confiabilidade do código.
 
 ## 🐳 Ambiente Docker
 
