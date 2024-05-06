@@ -4,3 +4,9 @@ uvicorn>=0.15.0,<0.16.0
 mysql-connector-python
 sqlalchemy
 pymysql
+pytest
+pytest-asyncio
+httpx
+asgi-lifespan
+requests
+coverage
