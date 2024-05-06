@@ -105,7 +105,7 @@ Para assegurar a qualidade e o correto funcionamento das funcionalidades do sist
    coverage html
    ```
 
-## 📬 Seção de Contato
+## 📬 Seção de Contato 
 
 Para qualquer dúvida, feedback ou se você simplesmente quer bater um papo, não hesite em entrar em contato comigo! Aqui estão as informações para que você possa me encontrar:
 
