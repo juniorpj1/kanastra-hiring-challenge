@@ -36,6 +36,11 @@ Execute o comando:
       docker-compose up
    ```
 
+3. **Desmontando e parando containeres**
+   ```sh
+   docker-compose down
+   ```
+
 ## 🌐 Acessando a Aplicação
 
 - **Frontend**: Após os serviços estarem em execução, acesse `http://localhost:8000` e você será redirecionado para a aplicação React.
