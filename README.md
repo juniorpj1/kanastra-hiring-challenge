@@ -36,7 +36,7 @@ Execute o comando:
       docker-compose up
    ```
 
-3. **Desmontando e parando containeres**
+3. **Desmontando e parando containeres (a critério de conhecimento, não pare-os agora)**
    ```sh
    docker-compose down
    ```
