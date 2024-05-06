@@ -75,5 +75,43 @@ Para verificar os dados inclusos no banco de dados MySQL, que está rodando em u
    USE Kanastra;
    SELECT * FROM charges;
    ```
-   
-Agora é com vocês! Espero que tenham uma ótima experiência testando minha aplicação. Qualquer feedback é bem-vindo! 👍
+
+   ## 🧪 Testes Unitários com Pytest, UnitTest e Coverage
+
+Para assegurar a qualidade e o correto funcionamento das funcionalidades do sistema, é essencial realizar testes unitários. Siga os comandos abaixo para executar os testes no ambiente Docker:
+
+1. **Listagem de Containers**: Verifique os containers em execução para identificar o ID do container `kanastra-backend`:
+   ```sh
+   docker ps
+   ```
+
+2. **Acesso ao Container**: Utilize o ID obtido para acessar o bash do container `kanastra-backend`:
+   ```sh
+   docker exec -it <ID do kanastra-backend> bash
+   ```
+
+3. **Execução dos Testes**: Dentro do container, execute os testes com o `pytest`:
+   ```sh
+   coverage run -m pytest -vv
+   ```
+
+4. **Relatório de Cobertura**: Após a execução dos testes, gere o relatório de cobertura:
+   ```sh
+   coverage report -m
+   ```
+
+5. **Relatório HTML**: Para uma visualização mais detalhada e formatada, gere o relatório em HTML:
+   ```sh
+   coverage html
+   ```
+
+## 📬 Seção de Contato
+
+Para qualquer dúvida, feedback ou se você simplesmente quer bater um papo, não hesite em entrar em contato comigo! Aqui estão as informações para que você possa me encontrar:
+
+- **Email**: [apariciojunior11@gmail.com](mailto:apariciojunior11@gmail.com)
+- **LinkedIn**: [Aparício Junior](https://www.linkedin.com/in/apariciojunior)
+- **Curso**: Sistemas para Internet
+- **Período**: 5º Semestre
+
+Estou sempre aberto a novas conexões e oportunidades de aprendizado. Vamos conversar! 💼🎓🚀
